@@ -1,0 +1,67 @@
+@font-face {
+    font-family: HeaderFont;
+    src: url(Junction-regular.otf);
+}
+a:link {
+    color: black;
+	text-decoration: none;
+}
+a:visited{
+	color:black;
+}
+a:hover {
+    color: blue;
+	text-decoration:underline;
+}
+a:active {
+    color: blue;
+}
+.heading{
+	/*font-family:HeaderFont;*/
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 60px;
+	color:white;
+	background:black;
+	height: 90px;
+	padding: 20px 15px 10px 15px;
+	text-align:center;
+	word-spacing:20px;
+
+}
+.wrapper{
+	width:1311px;
+	height: 400px;
+	/*background:lightgreen;*/
+	margin: auto;
+}
+.content{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	height: 370px;
+	width:755px;
+	padding: 15px;
+	/*background:lightgreen;*/
+	border-right:1px solid gray;
+	float:left;
+}
+.sidebar{
+	height:370px;
+	width:495px;
+	padding:15px;
+	/*background:lightblue;*/
+	float: right;
+	font-family: 'Roboto Mono', monospace;
+
+}
+.footer{
+	font-family: 'Muli', sans-serif;
+	font-size:20px;
+	padding: 1em;
+    color: white;
+    background-color: black;
+	text-align:center;
+	clear :both;
+}
+.article{
+	
+}
